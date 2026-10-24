@@ -1,0 +1,428 @@
+baseURL = 'https://federratas.me/'
+locale = 'es'
+title = 'Federratas'
+theme = 'congo'
+defaultContentLanguage = "es"
+removePathAccents = true
+
+[languages]
+  [languages.es]
+    label = "Español"
+    weight = 1
+    [languages.es.params]
+      description = "Sitio personal de Federico Heinz"
+    [languages.es.params.author]
+      headline = "Amateur profesional de amplio espectro."
+      bio = "Amateur profesional de amplio espectro."
+
+  [languages.en]
+    label = "English"
+    weight = 2
+    [languages.en.params]
+      description = "Federico Heinz's personal website."
+    [languages.en.params.author]
+      headline = "Broad-spectrum professional amateur."
+      bio = "Broad-spectrum professional amateur."
+
+  [languages.de]
+    label = "Deutsch"
+    weight = 3
+    [languages.de.params]
+      description = "Persönliche Website von Federico Heinz."
+    [languages.de.params.author]
+      headline = "Breitbandberufsamateur."
+      bio = "Breitbandberufsamateur."
+
+# Generates a standard robots.txt file automatically
+enableRobotsTXT = true 
+
+[params]
+  env = 'production'
+  # This sets the global meta description for SEO
+  description = 'Un catálogo de pruebas y errores. Sobre todo errores.'
+  
+  # Congo's default visual settings
+  colorScheme = 'default'
+  defaultAppearance = 'light'
+
+[params.author]
+  name = "Fede Heinz"
+  # image = "avatar.jpg"
+
+[params.homepage]
+  layout = "page"
+  showRecent = true
+
+[params.list]
+  showSummary = true
+
+[[languages.es.menu.main]]
+  name = "Language"
+  weight = 100
+  [languages.es.menu.main.params]
+    action = "locale"
+
+[[languages.en.menu.main]]
+  name = "Language"
+  weight = 100
+  [languages.en.menu.main.params]
+    action = "locale"
+
+[[languages.de.menu.main]]
+  name = "Language"
+  weight = 100
+  [languages.de.menu.main.params]
+    action = "locale"
+
+[[languages.es.menu.main]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 999
+  [languages.es.menu.main.params]
+    icon = "rss"
+
+[[languages.en.menu.main]]
+  name = "RSS"
+  url = "/en/index.xml"
+  weight = 999
+  [languages.en.menu.main.params]
+    icon = "rss"
+
+[[languages.de.menu.main]]
+  name = "RSS"
+  url = "/de/index.xml"
+  weight = 999
+  [languages.de.menu.main.params]
+    icon = "rss"
+
+[[languages.es.menu.main]]
+  name = "Pifiadas"
+  url = "/posts/"
+  weight = 50
+
+[[languages.en.menu.main]]
+  name = "Blunders"
+  url = "/en/posts/"
+  weight = 50
+
+[[languages.de.menu.main]]
+  name = "Verpatzungen"
+  url = "/de/posts/"
+  weight = 50
+
+# BEGIN MENU CATEGORIES
+[[languages.es.menu.main]]
+  name = "Categorías"
+  identifier = "menu-cats"
+  url = "#"
+  weight = 15
+
+[[languages.es.menu.main]]
+  name = "Atentados paraliterarios"
+  identifier = "cat-es-atentados-paraliterarios"
+  url = "/categories/atentados paraliterarios/"
+  parent = "menu-cats"
+  weight = 1
+
+[[languages.es.menu.main]]
+  name = "Anécdotas"
+  url = "/categories/anécdotas/"
+  parent = "cat-es-atentados-paraliterarios"
+  weight = 1
+
+[[languages.es.menu.main]]
+  name = "Cuentos Chinos"
+  url = "/categories/cuentos chinos/"
+  parent = "cat-es-atentados-paraliterarios"
+  weight = 2
+
+[[languages.es.menu.main]]
+  name = "Ellas"
+  url = "/categories/ellas/"
+  parent = "cat-es-atentados-paraliterarios"
+  weight = 3
+
+[[languages.es.menu.main]]
+  name = "Geekerías"
+  url = "/categories/geekerías/"
+  parent = "cat-es-atentados-paraliterarios"
+  weight = 4
+
+[[languages.es.menu.main]]
+  name = "Orgías"
+  url = "/categories/orgías/"
+  parent = "cat-es-atentados-paraliterarios"
+  weight = 5
+
+[[languages.es.menu.main]]
+  name = "Paren el mundo"
+  url = "/categories/paren el mundo/"
+  parent = "cat-es-atentados-paraliterarios"
+  weight = 6
+
+[[languages.es.menu.main]]
+  name = "Era digital"
+  identifier = "cat-es-era-digital"
+  url = "/categories/era digital/"
+  parent = "menu-cats"
+  weight = 2
+
+[[languages.es.menu.main]]
+  name = "Codicia"
+  url = "/categories/codicia/"
+  parent = "cat-es-era-digital"
+  weight = 1
+
+[[languages.es.menu.main]]
+  name = "Malas Palabras"
+  url = "/categories/malas palabras/"
+  parent = "cat-es-era-digital"
+  weight = 2
+
+[[languages.es.menu.main]]
+  name = "Ontodoncias"
+  url = "/categories/ontodoncias/"
+  parent = "cat-es-era-digital"
+  weight = 3
+
+[[languages.es.menu.main]]
+  name = "Perro viejo"
+  url = "/categories/perro viejo/"
+  parent = "cat-es-era-digital"
+  weight = 4
+
+[[languages.es.menu.main]]
+  name = "Tecnocracia"
+  url = "/categories/tecnocracia/"
+  parent = "cat-es-era-digital"
+  weight = 5
+
+[[languages.es.menu.main]]
+  name = "El resto"
+  identifier = "cat-es-el-resto"
+  url = "/categories/el resto/"
+  parent = "menu-cats"
+  weight = 3
+
+[[languages.es.menu.main]]
+  name = "Efimérides"
+  url = "/categories/efimérides/"
+  parent = "cat-es-el-resto"
+  weight = 1
+
+[[languages.es.menu.main]]
+  name = "General"
+  url = "/categories/general/"
+  parent = "cat-es-el-resto"
+  weight = 2
+
+[[languages.en.menu.main]]
+  name = "Categories"
+  identifier = "menu-cats"
+  url = "#"
+  weight = 15
+
+[[languages.en.menu.main]]
+  name = "Paraliterary Attacks"
+  identifier = "cat-en-paraliterary-attacks"
+  url = "/en/categories/atentados paraliterarios/"
+  parent = "menu-cats"
+  weight = 1
+
+[[languages.en.menu.main]]
+  name = "Anecdotes"
+  url = "/en/categories/anécdotas/"
+  parent = "cat-en-paraliterary-attacks"
+  weight = 1
+
+[[languages.en.menu.main]]
+  name = "Tall Tales"
+  url = "/en/categories/cuentos chinos/"
+  parent = "cat-en-paraliterary-attacks"
+  weight = 2
+
+[[languages.en.menu.main]]
+  name = "Them"
+  url = "/en/categories/ellas/"
+  parent = "cat-en-paraliterary-attacks"
+  weight = 3
+
+[[languages.en.menu.main]]
+  name = "Geekeries"
+  url = "/en/categories/geekerías/"
+  parent = "cat-en-paraliterary-attacks"
+  weight = 4
+
+[[languages.en.menu.main]]
+  name = "Orgies"
+  url = "/en/categories/orgías/"
+  parent = "cat-en-paraliterary-attacks"
+  weight = 5
+
+[[languages.en.menu.main]]
+  name = "Stop the World"
+  url = "/en/categories/paren el mundo/"
+  parent = "cat-en-paraliterary-attacks"
+  weight = 6
+
+[[languages.en.menu.main]]
+  name = "Digital Era"
+  identifier = "cat-en-digital-era"
+  url = "/en/categories/era digital/"
+  parent = "menu-cats"
+  weight = 2
+
+[[languages.en.menu.main]]
+  name = "Greed"
+  url = "/en/categories/codicia/"
+  parent = "cat-en-digital-era"
+  weight = 1
+
+[[languages.en.menu.main]]
+  name = "Bad Words"
+  url = "/en/categories/malas palabras/"
+  parent = "cat-en-digital-era"
+  weight = 2
+
+[[languages.en.menu.main]]
+  name = "Ontodontia"
+  url = "/en/categories/ontodoncias/"
+  parent = "cat-en-digital-era"
+  weight = 3
+
+[[languages.en.menu.main]]
+  name = "Old Dog"
+  url = "/en/categories/perro viejo/"
+  parent = "cat-en-digital-era"
+  weight = 4
+
+[[languages.en.menu.main]]
+  name = "Technocracy"
+  url = "/en/categories/tecnocracia/"
+  parent = "cat-en-digital-era"
+  weight = 5
+
+[[languages.en.menu.main]]
+  name = "The rest"
+  identifier = "cat-en-the-rest"
+  url = "/en/categories/el resto/"
+  parent = "menu-cats"
+  weight = 3
+
+[[languages.en.menu.main]]
+  name = "Ephemerides"
+  url = "/en/categories/efimérides/"
+  parent = "cat-en-the-rest"
+  weight = 1
+
+[[languages.en.menu.main]]
+  name = "General"
+  url = "/en/categories/general/"
+  parent = "cat-en-the-rest"
+  weight = 2
+
+[[languages.de.menu.main]]
+  name = "Kategorien"
+  identifier = "menu-cats"
+  url = "#"
+  weight = 15
+
+[[languages.de.menu.main]]
+  name = "Paraliterarische Anschläge"
+  identifier = "cat-de-paraliterarische-anschlage"
+  url = "/de/categories/atentados paraliterarios/"
+  parent = "menu-cats"
+  weight = 1
+
+[[languages.de.menu.main]]
+  name = "Anekdoten"
+  url = "/de/categories/anécdotas/"
+  parent = "cat-de-paraliterarische-anschlage"
+  weight = 1
+
+[[languages.de.menu.main]]
+  name = "Ammenmärchen"
+  url = "/de/categories/cuentos chinos/"
+  parent = "cat-de-paraliterarische-anschlage"
+  weight = 2
+
+[[languages.de.menu.main]]
+  name = "Sie"
+  url = "/de/categories/ellas/"
+  parent = "cat-de-paraliterarische-anschlage"
+  weight = 3
+
+[[languages.de.menu.main]]
+  name = "Geek-Kram"
+  url = "/de/categories/geekerías/"
+  parent = "cat-de-paraliterarische-anschlage"
+  weight = 4
+
+[[languages.de.menu.main]]
+  name = "Orgien"
+  url = "/de/categories/orgías/"
+  parent = "cat-de-paraliterarische-anschlage"
+  weight = 5
+
+[[languages.de.menu.main]]
+  name = "Haltet die Welt an"
+  url = "/de/categories/paren el mundo/"
+  parent = "cat-de-paraliterarische-anschlage"
+  weight = 6
+
+[[languages.de.menu.main]]
+  name = "Digitales Zeitalter"
+  identifier = "cat-de-digitales-zeitalter"
+  url = "/de/categories/era digital/"
+  parent = "menu-cats"
+  weight = 2
+
+[[languages.de.menu.main]]
+  name = "Gier"
+  url = "/de/categories/codicia/"
+  parent = "cat-de-digitales-zeitalter"
+  weight = 1
+
+[[languages.de.menu.main]]
+  name = "Schimpfwörter"
+  url = "/de/categories/malas palabras/"
+  parent = "cat-de-digitales-zeitalter"
+  weight = 2
+
+[[languages.de.menu.main]]
+  name = "Onthopädie"
+  url = "/de/categories/ontodoncias/"
+  parent = "cat-de-digitales-zeitalter"
+  weight = 3
+
+[[languages.de.menu.main]]
+  name = "Alter Hund"
+  url = "/de/categories/perro viejo/"
+  parent = "cat-de-digitales-zeitalter"
+  weight = 4
+
+[[languages.de.menu.main]]
+  name = "Technokratie"
+  url = "/de/categories/tecnocracia/"
+  parent = "cat-de-digitales-zeitalter"
+  weight = 5
+
+[[languages.de.menu.main]]
+  name = "Der Rest"
+  identifier = "cat-de-der-rest"
+  url = "/de/categories/el resto/"
+  parent = "menu-cats"
+  weight = 3
+
+[[languages.de.menu.main]]
+  name = "Ephemeriden"
+  url = "/de/categories/efimérides/"
+  parent = "cat-de-der-rest"
+  weight = 1
+
+[[languages.de.menu.main]]
+  name = "Allgemeines"
+  url = "/de/categories/general/"
+  parent = "cat-de-der-rest"
+  weight = 2
+# END MENU CATEGORIES

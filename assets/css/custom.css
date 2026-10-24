@@ -1,0 +1,8 @@
+header a[href="/"][rel="me"] {
+  font-size: 3rem !important;
+  line-height: 1.2 !important;
+  display: inline-block; /* Ensures the browser respects the line-height properly */
+}
+.group:hover .custom-dropdown-menu {
+    display: block !important;
+}

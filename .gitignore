@@ -1,0 +1,18 @@
+# Generated site output
+public/
+
+# Generated resources (Hugo caches processed images, CSS, etc. here)
+resources/_gen/
+assets/jsconfig.json
+
+# Hugo build lock file
+.hugo_build.lock
+
+# Dependency directories (if using npm for Tailwind/PostCSS in the future)
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*~
+*.bak

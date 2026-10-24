@@ -1,0 +1,72 @@
+{
+  "Atentados paraliterarios": {
+    "en": "Paraliterary Attacks",
+    "de": "Paraliterarische Anschläge",
+    "children": {
+      "Anécdotas": {
+        "en": "Anecdotes",
+        "de": "Anekdoten"
+      },
+      "Cuentos Chinos": {
+        "en": "Tall Tales",
+        "de": "Ammenmärchen"
+      },
+      "Ellas": {
+        "en": "Them",
+        "de": "Sie"
+      },
+      "Geekerías": {
+        "en": "Geekeries",
+        "de": "Geek-Kram"
+      },
+      "Orgías": {
+        "en": "Orgies",
+        "de": "Orgien"
+      },
+      "Paren el mundo": {
+        "en": "Stop the World",
+        "de": "Haltet die Welt an"
+      }
+    }
+  },
+  "Era digital": {
+    "en": "Digital Era",
+    "de": "Digitales Zeitalter",
+    "children": {
+      "Codicia": {
+        "en": "Greed",
+        "de": "Gier"
+      },
+      "Malas Palabras": {
+        "en": "Bad Words",
+        "de": "Schimpfwörter"
+      },
+      "Ontodoncias": {
+        "en": "Ontodontia",
+        "de": "Onthopädie"
+      },
+      "Perro viejo": {
+        "en": "Old Dog",
+        "de": "Alter Hund"
+      },
+      "Tecnocracia": {
+        "en": "Technocracy",
+        "de": "Technokratie"
+      }
+    }
+  },
+  "El resto": {
+    "en": "The rest",
+    "de": "Der Rest",
+    "children": {
+      "Efimérides": {
+        "en": "Ephemerides",
+        "de": "Ephemeriden"
+      },
+      "General": {
+        "en": "General",
+        "de": "Allgemeines"
+      }
+    }
+  }
+}
