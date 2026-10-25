@@ -1,28 +1,29 @@
 ---
 title:
-  "Neuseeländer, lasst euch gesagt sein: Ich beneide euch um euren
-  Informatik-Verband"
+  "Neuseeländer, aufgepasst: Ich beneide eure professionelle Organisation
+  von Informatikern."
 date: 2013-05-09
 categories: ["Efimérides", "El resto"]
 ---
 
-Es ist aktenkundig, dass die USA seit geraumer Zeit Strategien anwenden,
-die eines Schulhof-Schlägers würdig sind. Ihr Ziel: Die ganze Welt soll
-dieselben [Softwarepatente](http://patentabsurdity.com/) akzeptieren,
-die bereits im eigenen Territorium jegliche Innovation blockieren.
+Es ist allgemein bekannt, dass die Vereinigten Staaten schon seit
+einiger Zeit Strategien anwenden, die an die von Schulhof-Rowdys
+erinnern, um sicherzustellen, dass weltweit die gleichen
+[Softwarepatente](http://patentabsurdity.com/) akzeptiert werden, die
+die Innovation in ihrem eigenen Land behindern.
 
-Viele Staaten (darunter die Europäische Union selbst) ziehen es vor, sie
-nicht zu behelligen. Doch der vergleichsweise winzige Staat Neuseeland
-hat gerade einen Gesetzentwurf vorgelegt, der [Software explizit von der
-Patentierbarkeit
+Viele Länder (darunter auch die Europäische Union) entscheiden sich
+dafür, nicht gegen sie vorzugehen, aber der vergleichsweise winzige
+Staat Neuseeland hat gerade ein Gesetz vorgeschlagen, das [Software
+eindeutig von der Patentierbarkeit
 ausschließt](http://www.legislation.govt.nz/sop/government/2013/0237/latest/096be8ed80ae061a.pdf).
 
-Das Interessante an der Sache: Der Entwurf profitierte von der Mitarbeit
-und Unterstützung des [Institute of IT
-Professionals](http://www.iitp.org.nz/newsletter/article/430). In
-Argentinien wurde das Thema Softwarepatente zwar mehr als einmal im
-Rahmen der [SADIO](http://www.sadio.org.ar) debattiert, doch zu einer
-klaren Positionierung kam es nie.
+Das Interessante an der Sache: Der Gesetzesentwurf wurde von dem
+[Institute of IT
+Professionals](http://www.iitp.org.nz/newsletter/article/430)
+unterstützt und gefördert. In Argentinien wurde das Thema
+Softwarepatente mehrfach im Rahmen von [SADIO](http://www.sadio.org.ar)
+diskutiert, aber es gab nie eine klare Positionierung dazu.
 
-Wie herrlich muss es sein, einen Berufsverband zu haben, der sich
-tatsächlich um die substanziellen Dinge kümmert!
+Wie schön muss es sein, eine Berufsorganisation zu haben, die sich um
+wichtige Dinge kümmert!
