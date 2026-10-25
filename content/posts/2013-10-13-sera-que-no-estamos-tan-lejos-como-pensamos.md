@@ -40,8 +40,9 @@ circulación de las obras_.
 Bienvenida entonces, Ana (¿y con ella la Migré?) a las huestes reformistas de
 la 11.723. Seguramente no vamos a estar de acuerdo en todo, pero si realmente
 estamos a favor de la libre circulación de las obras, no podemos menos que
-coincidir en que es necesario relajarla fuertemente. El resto es cuestión de
-detalles.
+coincidir en que es necesario relajarla fuertemente.
+
+El resto es cuestión de detalles.
 
 [^1]:
     Entiendo que las industrias hablen de “contenidos”: para quienes fabrican
