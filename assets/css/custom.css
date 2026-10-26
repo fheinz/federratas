@@ -3,6 +3,22 @@ header a[rel="me"] {
   line-height: 1.2 !important;
   display: inline-block; /* Ensures the browser respects the line-height properly */
 }
-.group:hover .custom-dropdown-menu {
-    display: block !important;
+
+.group {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.custom-dropdown-menu {
+    display: block !important; /* Overrides the theme's default display: none */
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.group:hover .custom-dropdown-menu,
+.group:active .custom-dropdown-menu,
+.group:focus-within .custom-dropdown-menu {
+    visibility: visible !important;
+    opacity: 1 !important;
 }
