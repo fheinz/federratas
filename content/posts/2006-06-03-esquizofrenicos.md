@@ -42,14 +42,16 @@ da el menor motivo para tener celos, y comprende que si ella tiene alguna vez
 una aventurilla sin más consecuencias que un par de mellizos con rasgos indios,
 sólo lo hace porque necesita aire para no ahogarse.
 
-En malón pasaron ellas rumbo al ocaso en pos de este personaje, dejándome
-pisoteado, sumido en la estela de polvo y en mis cavilaciones. Pensándolo bien,
-no me preocupa tanto que busquen alguien así. Lo que me aterra es la posibilidad
-de que lo encuentren. Porque este tipo es un esquizofrénico al lado del que
-Norman Bates (el de Psicosis) era un mayordomo inglés. Tarde o temprano, este
-colifa va a terminar hecho un asesino en serie, aullándole a la Luna desde la
-terraza de un edificio, desnudo y con el cuerpo tatuado con los Nombres de la
-Bestia. Gente así es la materia prima de las novelas de Stephen King.
+En malón pasaron ellas rumbo al ocaso en pos de este personaje,
+dejando a nuestros amigos pisoteados, sumidos en la estela de polvo y
+sus cavilaciones. Pensándolo bien, no preocupa tanto que busquen
+alguien así. Lo que verdaderamente aterrador es la posibilidad de que
+lo encuentren. Porque este tipo es un esquizofrénico al lado del que
+Norman Bates (el de Psicosis) era un mayordomo inglés. Tarde o
+temprano, este colifa va a terminar hecho un asesino en serie,
+aullándole a la Luna desde la terraza de un edificio, desnudo y con el
+cuerpo tatuado con los Nombres de la Bestia. Gente así es la materia
+prima de las novelas de Stephen King.
 
 Si se permite el mal gusto de ser honesto, admitiré que también los varones
 suelen caer en la trampa del deseo polimorfo, embarcándose en la búsqueda de una
