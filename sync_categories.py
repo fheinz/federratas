@@ -154,7 +154,7 @@ def main():
     for lang in langs:
         base_url = f'/{lang}/categories/' if lang != 'es' else '/categories/'
         
-        toml_lines.append(f'[[languages.{lang}.menu.main]]\n  name = "{menu_labels[lang]}"\n  identifier = "menu-cats"\n  url = "#"\n  weight = 15\n')
+        toml_lines.append(f'[[languages.{lang}.menu.main]]\n  name = "{menu_labels[lang]}"\n  identifier = "menu-cats"\n  url = "/categories/"\n  weight = 15\n')
         
         weight_counter = 1
         for parent, children in display_trees[lang].items():
