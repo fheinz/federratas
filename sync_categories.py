@@ -11,10 +11,10 @@ def generate_taxonomy_index(canonical_es_name, lang, localized_name):
     # Hugo lowercases taxonomy folders by default but retains non-ASCII accents
     folder_name = canonical_es_name.lower()
     dir_path = os.path.join('content', 'categories', folder_name)
-    
+
     # Safely create the directory structure
     os.makedirs(dir_path, exist_ok=True)
-    
+
     # Write the language-specific _index file
     file_path = os.path.join(dir_path, f'_index.{lang}.md')
     with open(file_path, 'w', encoding='utf-8') as f:
@@ -42,7 +42,7 @@ def main():
             display_trees[lang][parent_name] = []
 
             # Map ANY language's slug back to the master Spanish proper name
-            slug_to_es_proper[slugify(parent_name)] = es_parent 
+            slug_to_es_proper[slugify(parent_name)] = es_parent
 
             for es_child, child_translations in data.get('children', {}).items():
                 es_to_lang[es_child] = {l: child_translations.get(l, es_child) if l != 'es' else es_child for l in langs}
@@ -116,13 +116,8 @@ def main():
                     if children and not any(child in processed_es_categories for child in children):
                         processed_es_categories.remove(parent)
 
-            # Translate correctly
-            target_categories = set()
-            for es_cat in processed_es_categories:
-                if es_cat in es_to_lang:
-                    target_categories.add(es_to_lang[es_cat][lang])
-                else:
-                    target_categories.add(es_cat)
+            # Enforce unified taxonomy: Always use Spanish categories in frontmatter
+            target_categories = processed_es_categories
 
             # Overwrite the target file
             with open(filepath, 'r', encoding='utf-8') as f:
@@ -153,21 +148,21 @@ def main():
 
     for lang in langs:
         base_url = f'/{lang}/categories/' if lang != 'es' else '/categories/'
-        
-        toml_lines.append(f'[[languages.{lang}.menu.main]]\n  name = "{menu_labels[lang]}"\n  identifier = "menu-cats"\n  url = "/categories/"\n  weight = 15\n')
-        
+
+        toml_lines.append(f'[[languages.{lang}.menu.main]]\n  name = "{menu_labels[lang]}"\n  identifier = "menu-cats"\n  url = "{base_url}"\n  weight = 15\n')
+
         weight_counter = 1
         for parent, children in display_trees[lang].items():
             parent_id = f"cat-{lang}-{slugify(parent)}"
-            
+
             # Lookup canonical Spanish name and generate taxonomy folder/index
             es_parent = slug_to_es_proper.get(slugify(parent), parent)
             generate_taxonomy_index(es_parent, lang, parent)
             es_parent_folder = es_parent.lower()
-            
+
             # Write parent category using the Spanish folder path
             toml_lines.append(f'[[languages.{lang}.menu.main]]\n  name = "{parent}"\n  identifier = "{parent_id}"\n  url = "{base_url}{es_parent_folder}/"\n  parent = "menu-cats"\n  weight = {weight_counter}\n')
-            
+
             # Write child categories attached to this specific parent
             child_weight = 1
             for child in children:
@@ -175,10 +170,10 @@ def main():
                 es_child = slug_to_es_proper.get(slugify(child), child)
                 generate_taxonomy_index(es_child, lang, child)
                 es_child_folder = es_child.lower()
-                
+
                 toml_lines.append(f'[[languages.{lang}.menu.main]]\n  name = "{child}"\n  url = "{base_url}{es_child_folder}/"\n  parent = "{parent_id}"\n  weight = {child_weight}\n')
                 child_weight += 1
-            
+
             weight_counter += 1
 
     menu_block = '\n'.join(toml_lines)
@@ -191,7 +186,7 @@ def main():
 
     with open('hugo.toml', 'w', encoding='utf-8') as f:
         f.write(updated_config)
-        
+
     print("\nSuccessfully injected updated menu directly into hugo.toml and generated taxonomy indexes.")
 
 if __name__ == "__main__":

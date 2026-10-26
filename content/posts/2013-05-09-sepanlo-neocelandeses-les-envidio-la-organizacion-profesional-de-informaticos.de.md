@@ -3,7 +3,7 @@ title:
   "Neuseeländer, aufgepasst: Ich beneide eure professionelle Organisation
   von Informatikern."
 date: 2013-05-09
-categories: ["Der Rest", "Ephemeriden"]
+categories: ["Efimérides", "El resto"]
 ---
 
 Es ist allgemein bekannt, dass die Vereinigten Staaten schon seit

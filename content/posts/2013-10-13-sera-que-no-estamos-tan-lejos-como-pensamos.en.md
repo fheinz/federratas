@@ -1,7 +1,7 @@
 ---
 title: "Could it be that we aren't as far apart as we think?"
 date: 2013-10-13
-categories: ["Ephemerides", "The rest"]
+categories: ["Efimérides", "El resto"]
 ---
 
 I've just finished reading an article by [Ana

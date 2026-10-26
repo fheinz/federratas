@@ -219,7 +219,7 @@ enableRobotsTXT = true
 [[languages.en.menu.main]]
   name = "Categories"
   identifier = "menu-cats"
-  url = "/categories/"
+  url = "/en/categories/"
   weight = 15
 
 [[languages.en.menu.main]]
@@ -324,7 +324,7 @@ enableRobotsTXT = true
 [[languages.de.menu.main]]
   name = "Kategorien"
   identifier = "menu-cats"
-  url = "/categories/"
+  url = "/de/categories/"
   weight = 15
 
 [[languages.de.menu.main]]
