@@ -3,7 +3,7 @@
 preview: hugo.toml
 	hugo server -D
 
-hugo.toml: categories.json
+hugo.toml: categories.json sync_categories.py
 	python3 sync_categories.py
 
 push: hugo.toml

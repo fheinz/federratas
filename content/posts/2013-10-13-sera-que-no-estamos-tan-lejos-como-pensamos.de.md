@@ -1,7 +1,7 @@
 ---
 title: "Sind wir uns vielleicht gar nicht so fern, wie wir glauben?"
 date: 2013-10-13
-categories: ["Efimérides", "El resto"]
+categories: ["Der Rest", "Ephemeriden"]
 ---
 
 Ich habe gerade einen Artikel von [Ana

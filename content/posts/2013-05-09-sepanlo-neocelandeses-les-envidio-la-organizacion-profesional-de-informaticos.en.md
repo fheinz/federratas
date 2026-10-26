@@ -3,7 +3,7 @@ title:
   "Listen up, New Zealanders: I envy your organization of
   IT professionals."
 date: 2013-05-09
-categories: ["Efimérides", "El resto"]
+categories: ["Ephemerides", "The rest"]
 ---
 
 It's well-known that the United States has long been using tactics
