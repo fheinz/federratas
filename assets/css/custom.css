@@ -3,6 +3,9 @@ header a[rel="me"] {
   line-height: 1.2 !important;
   display: inline-block; /* Ensures the browser respects the line-height properly */
 }
+.group {
+    cursor: pointer;
+}
 .group:hover .custom-dropdown-menu {
     display: block !important;
 }
