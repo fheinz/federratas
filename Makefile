@@ -7,7 +7,8 @@ hugo.toml: categories.json sync_categories.py
 	python3 sync_categories.py
 
 push: hugo.toml
-	@read -p "Enter commit message: " msg; \
-	git add .; \
-	git commit -m "$$msg" || true; \
+	@if [ -n "$$(git status --porcelain)" ]; then \
+		echo "Error: Uncommitted changes detected. Please commit them before pushing."; \
+		exit 1; \
+	fi
 	git push origin main
