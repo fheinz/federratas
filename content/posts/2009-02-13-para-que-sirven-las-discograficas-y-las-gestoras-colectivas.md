@@ -11,7 +11,7 @@ asociadas) están en problemas, sí. Pero la música y la industria
 discográfica son cosas muy distintas, y en entornos digitales la música
 bien puede florecer y difundirse sin necesidad de la industria.
 
-== Industrias que vienen, industrias que van
+##\ Industrias que vienen, industrias que van
 
 Mi padre me cuenta que, cuando él era chico, la heladera de la casa era
 a hielo. Esencialmente, era un armario recubierto de aislamiento
@@ -45,7 +45,7 @@ fuente de sustento a muchas personas. Pero el servicio ya no agregaba
 suficiente valor en el nuevo contexto tecnológico, y los proveedores de
 hielo reconvirtieron su negocio, o se dedicaron a otra cosa.
 
-== Industrias que no se quieren ir
+##\ Industrias que no se quieren ir
 
 El paralelo con la industria discográfica no es difícil de trazar. De la
 misma manera que la gente no quería realmente hielo, sino frío, no es
@@ -77,7 +77,7 @@ producto de modo que la gente quiera comprarlo, prefieren hacer lobby
 ante los legisladores para forzar a los consumidores a entregarles su
 dinero, independientemente de si quieren hacerlo o no.
 
-== Mal acostumbrados
+## Mal acostumbrados
 
 El dicho popular asevera que la culpa no es del chancho, sino del que le
 da de comer, y es aplicable a este caso. La codicia de la industria
