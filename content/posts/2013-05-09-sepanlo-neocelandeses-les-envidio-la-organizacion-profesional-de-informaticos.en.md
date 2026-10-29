@@ -1,7 +1,6 @@
 ---
 title:
-  "Listen up, New Zealanders: I envy your organization of
-  IT professionals."
+  "Listen up, New Zealanders: I envy your Institute of IT Professionals"
 date: 2013-05-09
 categories: ["Efimérides", "El resto"]
 ---

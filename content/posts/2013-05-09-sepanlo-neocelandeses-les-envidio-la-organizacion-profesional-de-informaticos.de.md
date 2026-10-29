@@ -1,7 +1,6 @@
 ---
 title:
-  "Neuseeländer, aufgepasst: Ich beneide eure professionelle Organisation
-  von Informatikern."
+  "Neuseeländer, aufgepasst: ich beneide Euch um Euer Informatikerverbund"
 date: 2013-05-09
 categories: ["Efimérides", "El resto"]
 ---
