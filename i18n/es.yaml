@@ -1,2 +1,5 @@
 shortcode:
   recent_articles: "Pifiadas recientes"
+
+read_more:
+  other: "Sigue..."
