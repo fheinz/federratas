@@ -4,27 +4,34 @@ date: 2010-06-16
 categories: ["Era digital", "Perro viejo"]
 ---
 
-{{< figure src="/wp-content/uploads/2010/06/ws1.jpg" link="/wp-content/uploads/2010/06/ws1.jpg" alt="Foto de mi estación de trabajo" caption="Foto de mi estación de trabajo" >}}Hace
-ya años que no uso computadoras “de escritorio”: mi única máquina es la laptop.
-Casi todas las laptops modernas saben hacer algo muy útil: cuando le conectás un
-monitor en el puerto VGA, podés armar un escritorio extendido, poniendo algunas
-ventanas en el monitor, y otras en la pantalla de la laptop. Así, hace un tiempo
-ya que me armé el espacio de trabajo que se ve en la foto: sólo tengo que
-conectar un cable USB y el cable VGA, y ya tengo acceso a todos los periféricos
-de mi escritorio.
+{{< figure src="/wp-content/uploads/2010/06/ws1.jpg"
+    link="/wp-content/uploads/2010/06/ws1.jpg"
+	alt="Una laptop conectada a un teclado y monitor externo"
+	caption="Foto de mi estación de trabajo"
+>}}
 
-En realidad, miento: antes de poder usar el monitor externo, tengo que buscar el
-applet de control de geometría del escritorio, abrir la ventana de “configurar
-los parámetros de monitor”, encender la salida de monitor, acomodar el
-rectángulo que representa al monitor de modo que quede arriba del que representa
-la pantalla de la laptop, hacer click en “Aplicar”, confirmar que la imagen se
-ve bien, cerrar la ventana… y recién entonces puedo seguir trabajando. Y cuando
-quiero quitar la laptop, debo hacer el camino inverso antes de desconectar el
+Hace ya años que no uso computadoras “de escritorio”: mi única máquina
+es la laptop.  Casi todas las laptops modernas saben hacer algo muy
+útil: cuando le conectás un monitor en el puerto VGA, podés armar un
+escritorio extendido, poniendo algunas ventanas en el monitor, y otras
+en la pantalla de la laptop. Así, hace un tiempo ya que me armé el
+espacio de trabajo que se ve en la foto: sólo tengo que conectar un
+cable USB y el cable VGA, y ya tengo acceso a todos los periféricos de
+mi escritorio.
+
+En realidad, miento: antes de poder usar el monitor externo, tengo que
+buscar el applet de control de geometría del escritorio, abrir la
+ventana de “configurar los parámetros de monitor”, encender la salida
+de monitor, acomodar el rectángulo que representa al monitor de modo
+que quede arriba del que representa la pantalla de la laptop, hacer
+click en “Aplicar”, confirmar que la imagen se ve bien, cerrar la
+ventana… y recién entonces puedo seguir trabajando. Y cuando quiero
+quitar la laptop, debo hacer el camino inverso antes de desconectar el
 monitor, so pena de que la máquina quede mal configurada.
 
-Lamentando esta triste situación en la lista del
-[Grupo de Usuarios de Software Libre de Córdoba](http://grulic.org.ar/), tiramos
-un par de ideas, y armamos una solución automágica para el problema. 
+Lamentando esta triste situación en la lista del [Grupo de Usuarios de
+Software Libre de Córdoba](http://grulic.org.ar/), tiramos un par de
+ideas, y armamos una solución automágica para el problema.
 
 Lo primero que tenemos que hacer es guardar el siguiente script en
 /usr/local/bin/auto-monitor, cuyo objetivo es comprobar si el monitor está
