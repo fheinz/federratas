@@ -161,6 +161,12 @@ enableRobotsTXT = true
   weight = 6
 
 [[languages.es.menu.main]]
+  name = "Notas de Viaje"
+  url = "/categories/notas de viaje/"
+  parent = "cat-es-atentados-paraliterarios"
+  weight = 7
+
+[[languages.es.menu.main]]
   name = "Era digital"
   identifier = "cat-es-era-digital"
   url = "/categories/era digital/"
@@ -266,6 +272,12 @@ enableRobotsTXT = true
   weight = 6
 
 [[languages.en.menu.main]]
+  name = "Travel Notes"
+  url = "/en/categories/notas de viaje/"
+  parent = "cat-en-paraliterary-attacks"
+  weight = 7
+
+[[languages.en.menu.main]]
   name = "Digital Era"
   identifier = "cat-en-digital-era"
   url = "/en/categories/era digital/"
@@ -369,6 +381,12 @@ enableRobotsTXT = true
   url = "/de/categories/paren el mundo/"
   parent = "cat-de-paraliterarische-anschlage"
   weight = 6
+
+[[languages.de.menu.main]]
+  name = "Reiseberichte"
+  url = "/de/categories/notas de viaje/"
+  parent = "cat-de-paraliterarische-anschlage"
+  weight = 7
 
 [[languages.de.menu.main]]
   name = "Digitales Zeitalter"
