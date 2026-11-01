@@ -1,7 +1,7 @@
 ---
 title: "Brief interlude concerning pleasure"
 date: 2006-08-20
-categories: ["Atentados paraliterarios", "Orgías", "Paren el mundo"]
+categories: ["Atentados paraliterarios", "Orgías"]
 ---
 
 There’s that moment, just after sex, close enough that you’d think

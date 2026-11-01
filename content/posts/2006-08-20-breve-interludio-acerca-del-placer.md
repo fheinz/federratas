@@ -1,7 +1,7 @@
 ---
 title: "Breve interludio acerca del placer"
 date: 2006-08-20
-categories: ["Atentados paraliterarios", "Orgías", "Paren el mundo"]
+categories: ["Atentados paraliterarios", "Orgías"]
 ---
 
 Hay un momento, que podríamos ubicar justo después del sexo, tan próximo que aún

@@ -11,9 +11,9 @@ ellas menos por eso tratan de disuadirme el amor a primera vista no
 existe me dicen las muy arpías ya vas a ver cómo se te pasa pensalo
 bien recapacitá volvé volvé me gritan por altavoces mientras yo lo
 abrazo y me aprieto contra su espalda y estoy plena de él de su olor
-de su cuerpo varonil de su voz ronca que desafía al mundo a los
+de su cuerpo varonil <!--more--> de su voz ronca que desafía al mundo a los
 truenos a las luces frenética me aferro a su campera de cuero en la
-lluvia que nos bendice y pensar que se dicen mis amigas y no soportan
+lluvia que nos bautiza y pensar que se dicen mis amigas y no soportan
 que yo ame a un hombre de verdad que yo elija esta aventura en vez del
 tedio de la soledad o de un marido por eso quieren alejarme de él
 llevarme de vuelta a una vida sin amor justo ahora que lo encontré el
