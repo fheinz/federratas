@@ -1,7 +1,7 @@
 ---
 title: "¿Para qué sirven las discográficas y las gestoras colectivas?"
 date: 2009-02-13
-categories: ["Codicia"]
+categories: ["Codicia", "Era digital"]
 ---
 
 Cuando las gestoras colectivas de derecho de autor y las discográficas
