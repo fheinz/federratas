@@ -21,10 +21,16 @@ y de golpe sabés que es precisamente este el momento en el que el universo
 debería detenerse, o por lo menos terminarse, porque es esto, no más y no menos,
 todo lo que tu cuerpo ansía cada minuto de tu vida, y entonces sonreís de nuevo,
 y te quedás inmóvil, flotando sin rumbo en medio de este charco de placer
-transpirado que te envuelve, pero al cabo de un par de minutos no podés evitar
-moverte, rodar sobre vos mismo desacoplando los sexos, quizás incluso te das
-vuelta, o te sentás, o encendés un cigarrillo, y de golpe volvés a tomar plena
-conciencia de que estás sobre un colchón, con sábanas, en una cama en medio de
-un mundo que hace segundos sólo recordabas borrosamente, y ahí es cuando te
-ponés a pensar, si no será que los seres humanos estamos más preparados para
-soportar la persistencia del dolor que la del placer.
+transpirado que te envuelve.
+
+Pero al cabo de un par de minutos no podés evitar moverte, rodar sobre
+vos mismo desacoplando los sexos. Quizás incluso te das vuelta, o te
+sentás, o encendés un cigarrillo.
+
+Y de golpe volvés a tomar plena conciencia de que estás sobre un
+colchón, con sábanas, en una cama en medio de un mundo que hace
+segundos sólo recordabas borrosamente.
+
+Y ahí es cuando te ponés a pensar, si no será que los seres humanos
+estamos más preparados para soportar la persistencia del dolor que la
+del placer.

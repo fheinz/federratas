@@ -34,6 +34,6 @@ And you feel that you are on a mattress, with sheets, in a bed
 in the middle of a world that mere seconds ago was but a vague
 memory.
 
-And that's when you start wondering why it may be that human
-beings seem to have a easier time enduring the persistence of pain
-than that of pleasure.
+And that's when you start wondering whether it's true that human beings
+have an easier time enduring the persistence of pain than that of
+pleasure.
