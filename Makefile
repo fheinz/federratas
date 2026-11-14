@@ -1,10 +1,8 @@
 .PHONY: preview push
 
 preview: hugo.toml
-	hugo server -D
-
-hugo.toml: categories.json sync_categories.py
 	python3 sync_categories.py
+	hugo server -D
 
 push: hugo.toml
 	@if [ -n "$$(git status --porcelain)" ]; then \
