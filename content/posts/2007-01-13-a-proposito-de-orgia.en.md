@@ -45,11 +45,11 @@ of it. From which we may deduce we have already been chained and
 whipped, but that's a subject for another day.
 
 This weird tension has been the breeding ground for a vast industrial
-complex that extracts fat profits from the the brewing, synthesis,
-cultivation and commercialization of both legal and illegal substances
-intended to relax the conflict between our innate orgiastic vocation
-and our cultural reluctance to give in to pleasure. Once again, we
-learn that repression is the mother of prosperity.
+complex has made big business out of brewing, synthesizing,
+distilling, cultivating and commercializing legal as well as illegal
+substances intended to relax the conflict between our innate orgiastic
+vocation and our cultural reluctance to give in to pleasure. Once
+again, we learn that repression is the mother of prosperity.
 
 We are left with the final, defining requirement of the orgy, the one
 that has been the subject of the worst press of all: promiscuity, more
