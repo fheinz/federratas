@@ -1,8 +1,15 @@
+UNAME_O := $(shell uname -o)
+HUGO_FLAGS := -D
+
+ifeq ($(UNAME_O),Android)
+    HUGO_FLAGS += --noBuildLock
+endif
+
 .PHONY: preview push
 
 preview: hugo.toml
 	python3 sync_categories.py
-	hugo server -D
+	hugo server $(HUGO_FLAGS)
 
 push: hugo.toml
 	@if [ -n "$$(git status --porcelain)" ]; then \
